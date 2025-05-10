@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Song Front End</title>
+    <script src="scripts/script.js"></script>
+    <script defer src="scripts/login.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="/index.html">All Songs</a>
+        <a href="/add_song.html">Add Songs</a>
+        <a href="/delete_song.html">Delete Songs</a>
+    </nav>
+
+    <form id="loginForm" autocomplete="off">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+        </div>
+        <button type="button" id="loginBtn">Login</button>
+        <p id="errorMsg"></p>
+        </form>
+    <h1>Songs</h1>
+    <ul>
+        <div id="list_of_songs"></div>
+    </ul>
+ 
+</body>
+</html>
